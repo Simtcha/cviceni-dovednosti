@@ -35,7 +35,7 @@ if ((numHTML > 100 || numHTML <0 )) {
 
 let numCSS = prompt("Zadej svou uroven dovednosti CSS cislem 1 - 100: ")
 if (numCSS <= 100 && numCSS >=0 ) {
-    updateSkill("skill1",numCSS)  
+    updateSkill("skill2",numCSS)  
 } else { 
 if ((numCSS > 100 || numCSS <0 )) {
     numCSS = prompt("Spatne zadana hodnota. Zadej svou uroven dovednosti CSS cislem 1 - 100: ") 
@@ -49,12 +49,12 @@ if ((numCSS > 100 || numCSS <0 )) {
  
 let numJS = prompt("Zadej svou uroven dovednosti JavaScriptu cislem 1 - 100: ")
 if (numJS <= 100 && numJS >=0 ) {
-    updateSkill("skill1",numJS)  
+    updateSkill("skill3",numJS)  
 } else { 
 if ((numJS > 100 || numJS <0 )) {
     numJS = prompt("Spatne zadana hodnota. Zadej svou uroven dovednosti JavaScriptu cislem 1 - 100: ") 
     if (numJS <= 100 && numJS >=0 ) { 
-        updateSkill("skill2",numJS) } else { 
+        updateSkill("skill3",numJS) } else { 
             alert("JavaScript se neupdatuje, obnov stránku a piš lepší čísla")
         }
     }
