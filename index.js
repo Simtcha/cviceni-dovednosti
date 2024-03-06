@@ -57,5 +57,3 @@ updateSkill("skill3",uJavaScript)
 
 
 
-const message = 'Hello world' // Try edit me
-document.querySelector('#header').innerHTML = message
